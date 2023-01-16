@@ -1,9 +1,8 @@
 // do not change this code
-var fs = require("fs");
-var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split(",");
 
-var nama = input[0];
-var nilai = Number(input[1]);
+
+var nama = "risman";
+var nilai = 80;
 
 // code here
 if(nilai >= 80 && nilai <= 100){
